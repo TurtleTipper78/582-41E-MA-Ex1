@@ -10,6 +10,7 @@ require_once('controller/Controller.php');
 require_once('library/RequirePage.php');
 require_once __DIR__.'/vendor/autoload.php';
 require_once('library/Twig.php');
+require_once('library/CheckSession.php');
 
 
 
