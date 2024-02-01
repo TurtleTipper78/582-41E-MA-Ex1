@@ -1,17 +1,17 @@
 <?php
 
 RequirePage::model('CRUD');
+RequirePage::model('Recette');
 
 
-
-class ControllerTimbre extends Controller {
+class ControllerRecette extends Controller {
 
     public function index(){
         $recette = new Recette;
         $recette = $recette->select();
         
 
-        return Twig::render('recette/index.php', ['recettes'=>$recette]);
+        return Twig::render('index.php', ['recettes'=>$recette]);
 
         
     }
