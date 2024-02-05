@@ -3,9 +3,9 @@
 class ControllerHome extends Controller {
 
     public function index(){
-      // $view = new view('home');
+      
 
-      return Twig::render('index.php');
+      return Twig::render('home.php');
     }
 
     public function error($e = null){

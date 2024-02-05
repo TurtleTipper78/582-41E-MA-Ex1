@@ -4,7 +4,6 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-//define('PATH_DIR', 'https://e2395496.webdev.cmaisonneuve.qc.ca/stampee-pw1/');
 define('PATH_DIR', 'http://localhost:8888/582-41E-MA-Ex1-/urmumsrecipes/');
 require_once('controller/Controller.php');
 require_once('library/RequirePage.php');
